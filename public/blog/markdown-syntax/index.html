@@ -4,14 +4,14 @@
 <head><head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Markdown Syntax Guide - My New Hugo Site</title>
+    <title>Markdown Syntax Guide - Blog công nghệ</title>
     <meta name="description" content="Sample article showcasing basic Markdown syntax and formatting for HTML elements." />
     
     <meta name="author" content="Hugo Author" />
-    <meta name="generator" content="Hugo 0.88.1" /><link rel="stylesheet" href="http://example.org/css/styles.min.7b24381d6fbff91285d6404b151c9a43c570a135849c4b094515df3a35b2bdb6.css" integrity="sha256-eyQ4HW+/+RKF1kBLFRyaQ8VwoTWEnEsJRRXfOjWyvbY=">
+    <meta name="generator" content="Hugo 0.88.1" /><link rel="stylesheet" href="https://techblogdemo.netlify.app/css/styles.min.95aaf28c3a2dfd2e94a2ad5ec749c6924711c0d0719b5c475572ca84ba4b1a86.css" integrity="sha256-laryjDot/S6Uoq1ex0nGkkcRwNBxm1xHVXLKhLpLGoY=">
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
 </head>
-<meta property="og:title" content="My New Hugo Site | Markdown Syntax Guide" />
+<meta property="og:title" content="Blog công nghệ | Markdown Syntax Guide" />
 <meta name="twitter:title" content="Markdown Syntax Guide">
 <link rel="preload" href="/css/monokai-sublime.min.css" as="style"
     onload="this.onload=null;this.rel='stylesheet'">
@@ -37,8 +37,8 @@
     </style>
    
    <nav class="flex items-center justify-between flex-wrap relative z-50">
-    <a href="http://example.org/"><img alt="" class="h-40 mr-3"
-        src="/"></a>
+    <a href="https://techblogdemo.netlify.app/"><img alt="Logo Blog" class="h-40 mr-3"
+        src="/image/blog_logo.png"></a>
 
     <input id="nav-toggle" type=checkbox class="hidden">
     <label id="show-button" for="nav-toggle"
@@ -57,6 +57,22 @@
     </label>
     
     <div class="text-lg">
+        
+        <a href="/" class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-white hover:opacity-60 mr-8 text-2xl">
+            Home
+        </a>
+        
+        <a href="/about/" class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-white hover:opacity-60 mr-8 text-2xl">
+            About
+        </a>
+        
+        <a href="/blog/" class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-white hover:opacity-60 mr-8 text-2xl">
+            Blog
+        </a>
+        
+        <a href="/contact/" class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-white hover:opacity-60 mr-8 text-2xl">
+            Contact
+        </a>
         
     </div>
 
@@ -89,7 +105,7 @@
             <hr class="my-2">
         </section>
         
-        <img class="my-4" src="http://example.org/image/md.png">
+        <img class="my-4" src="https://techblogdemo.netlify.app/image/md.png">
         
         <div class="content py-1"><p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.</p>
 <h2 id="headings">Headings</h2>
@@ -154,16 +170,16 @@
 </table>
 <h2 id="code-blocks">Code Blocks</h2>
 <h4 id="code-block-with-backticks">Code block with backticks</h4>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!doctype html&gt;</span>
-&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
-&lt;<span style="color:#f92672">head</span>&gt;
-  &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;utf-8&#34;</span>&gt;
-  &lt;<span style="color:#f92672">title</span>&gt;Example HTML5 Document&lt;/<span style="color:#f92672">title</span>&gt;
-&lt;/<span style="color:#f92672">head</span>&gt;
-&lt;<span style="color:#f92672">body</span>&gt;
-  &lt;<span style="color:#f92672">p</span>&gt;Test&lt;/<span style="color:#f92672">p</span>&gt;
-&lt;/<span style="color:#f92672">body</span>&gt;
-&lt;/<span style="color:#f92672">html</span>&gt;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#ff79c6">&lt;!doctype html&gt;</span>
+&lt;<span style="color:#ff79c6">html</span> <span style="color:#50fa7b">lang</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;en&#34;</span>&gt;
+&lt;<span style="color:#ff79c6">head</span>&gt;
+  &lt;<span style="color:#ff79c6">meta</span> <span style="color:#50fa7b">charset</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;utf-8&#34;</span>&gt;
+  &lt;<span style="color:#ff79c6">title</span>&gt;Example HTML5 Document&lt;/<span style="color:#ff79c6">title</span>&gt;
+&lt;/<span style="color:#ff79c6">head</span>&gt;
+&lt;<span style="color:#ff79c6">body</span>&gt;
+  &lt;<span style="color:#ff79c6">p</span>&gt;Test&lt;/<span style="color:#ff79c6">p</span>&gt;
+&lt;/<span style="color:#ff79c6">body</span>&gt;
+&lt;/<span style="color:#ff79c6">html</span>&gt;
 </code></pre></div><h4 id="code-block-indented-with-four-spaces">Code block indented with four spaces</h4>
 <pre><code>&lt;!doctype html&gt;
 &lt;html lang=&quot;en&quot;&gt;
@@ -177,16 +193,16 @@
 &lt;/html&gt;
 </code></pre>
 <h4 id="code-block-with-hugos-internal-highlight-shortcode">Code block with Hugo&rsquo;s internal highlight shortcode</h4>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!doctype html&gt;</span>
-&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
-&lt;<span style="color:#f92672">head</span>&gt;
-  &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;utf-8&#34;</span>&gt;
-  &lt;<span style="color:#f92672">title</span>&gt;Example HTML5 Document&lt;/<span style="color:#f92672">title</span>&gt;
-&lt;/<span style="color:#f92672">head</span>&gt;
-&lt;<span style="color:#f92672">body</span>&gt;
-  &lt;<span style="color:#f92672">p</span>&gt;Test&lt;/<span style="color:#f92672">p</span>&gt;
-&lt;/<span style="color:#f92672">body</span>&gt;
-&lt;/<span style="color:#f92672">html</span>&gt;</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#ff79c6">&lt;!doctype html&gt;</span>
+&lt;<span style="color:#ff79c6">html</span> <span style="color:#50fa7b">lang</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;en&#34;</span>&gt;
+&lt;<span style="color:#ff79c6">head</span>&gt;
+  &lt;<span style="color:#ff79c6">meta</span> <span style="color:#50fa7b">charset</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;utf-8&#34;</span>&gt;
+  &lt;<span style="color:#ff79c6">title</span>&gt;Example HTML5 Document&lt;/<span style="color:#ff79c6">title</span>&gt;
+&lt;/<span style="color:#ff79c6">head</span>&gt;
+&lt;<span style="color:#ff79c6">body</span>&gt;
+  &lt;<span style="color:#ff79c6">p</span>&gt;Test&lt;/<span style="color:#ff79c6">p</span>&gt;
+&lt;/<span style="color:#ff79c6">body</span>&gt;
+&lt;/<span style="color:#ff79c6">html</span>&gt;</code></pre></div>
 <h2 id="list-types">List Types</h2>
 <h4 id="ordered-list">Ordered List</h4>
 <ol>
@@ -229,7 +245,7 @@
             <div class="grid grid-cols-2">
                 <div class="col-span-1">
                     
-                    <a class="previous lg:text-2xl" href="http://example.org/blog/rich-content/">
+                    <a class="previous lg:text-2xl" href="https://techblogdemo.netlify.app/blog/rich-content/">
                         <div
                             class="transition-colors duration-300 border border-gray-600 hover:border-black h-auto m-3 text-center py-3 lg:py-1">
                             <span class="icon-keyboard_arrow_left"></span> Rich Content
@@ -238,7 +254,7 @@
                     
                 </div>
                 
-                <a class="next lg:text-2xl" href="http://example.org/blog/whatisheadless/">
+                <a class="next lg:text-2xl" href="https://techblogdemo.netlify.app/blog/whatisheadless/">
                     <div
                         class="transition-colors duration-300 col-span-1 border border-gray-600 hover:border-black h-auto m-3 text-center py-3 lg:py-1">
                         What is headless? <span class="icon-keyboard_arrow_right"></span>
@@ -254,7 +270,7 @@
     
 <p>        Made with <a href="https://www.facebook.com/AnQuocnT" class="underline hover:text-blue-400">Quốc An</a> and <a href="https://www.facebook.com/FakerHT" class="underline hover:text-blue-400">Mạnh Tuấn</a></p>
 <div class="copy pl-8 py-5 bg-black text-white text-md">
-    &copy; My New Hugo Site 2021 All Rights Reserved.
+    &copy; Blog công nghệ 2021 All Rights Reserved.
 </div>
 </footer>
 <script src="./js/script.js"></script></body>
