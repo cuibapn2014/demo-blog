@@ -1,5 +1,5 @@
 theme= "blog"
-baseURL = 'http://example.org/'
+baseURL = 'https://techblogdemo.netlify.app/'
 languageCode = 'en-us'
 title = 'Blog công nghệ'
 
