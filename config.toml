@@ -1,4 +1,3 @@
-theme= "blog"
 baseURL = 'https://techblogdemo.netlify.app/'
 languageCode = 'en-us'
 title = 'Blog công nghệ'

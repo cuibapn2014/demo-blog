@@ -1,11 +1,14 @@
 {
   "devDependencies": {
-	"@fullhuman/postcss-purgecss": "^4.0.3",
+    "@fullhuman/postcss-purgecss": "^4.0.3",
     "@tailwindcss/typography": "^0.4.0",
     "autoprefixer": "^10.4.0",
     "postcss": "^8.3.11",
     "postcss-cli": "^9.0.1",
     "postcss-import": "^14.0.2",
     "tailwindcss": "^2.2.19"
+  },
+  "dependencies": {
+    "faunadb": "^4.4.1"
   }
 }
