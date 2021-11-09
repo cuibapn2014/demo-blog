@@ -6,7 +6,7 @@ hideToc: flase
 enableToc: true
 enableTocContent: flase
 image: image/whatisheadless.png
-author: QuocAn
+author: Manh Tuan
 authorEmoji: 
 tag:
 - noidung

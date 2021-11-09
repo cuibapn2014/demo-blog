@@ -1,5 +1,5 @@
 ---
-author : "Hugo Authors"
+author : "QuocAn"
 image: image/hotro.png
 title : "Emoji Support"
 date : "2019-03-05"

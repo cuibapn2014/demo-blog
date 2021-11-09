@@ -1,5 +1,5 @@
 ---
-author : "Hugo Authors"
+author : "QuocAn"
 title : "Rich Content"
 date : "2019-03-10"
 image: image/richnew.png

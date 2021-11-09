@@ -9,6 +9,8 @@
     "tailwindcss": "^2.2.19"
   },
   "dependencies": {
-    "faunadb": "^4.4.1"
+    "@vue/cli": "^4.5.15",
+    "faunadb": "^4.4.1",
+    "vue": "^2.6.14"
   }
 }

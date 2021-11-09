@@ -1,5 +1,5 @@
 ---
-author : "Hugo Author"
+author : "Quoc An"
 title : "Markdown Syntax Guide"
 image: image/md.png
 date : "2019-03-11"
