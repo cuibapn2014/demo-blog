@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "bootstrap-db": "node ./scripts/bootstrap-db.js",
-    "serve": "vue-cli-service serve",
+    "serve": "npm run bootstrap-db && vue-cli-service serve",
     "build": "vue-cli-service build",
     "build:local": "vue-cli-service build",
     "prebuild": "echo 'Check FaunaDB schemas' && npm run bootstrap-db",
