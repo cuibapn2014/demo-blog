@@ -1,28 +1,60 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+<div>
+  <div v-if="currentUser === null">
+  <button @click="appear()" class="font-bold w-32 py-4 bg-green-400 font-mono text-white hover:bg-white hover:text-green-400 duration-200 text-xl rounded">Login</button>
+  <LoginForm :class="hide" @hideClass="updateAppear"/>
   </div>
+  <div v-else>
+  <button @click="appearPro()" class="font-bold w-32 py-4 bg-gray-900 font-mono text-white hover:bg-white hover:text-gray-900 duration-200 text-xl rounded">Profile</button> 
+  <Profile :class="appearProfile" @hideClass="updateAppear"/>
+  </div>
+</div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import { mapActions, mapGetters } from "vuex"
+import LoginForm from "./components/Login.vue"
+import Profile from "./components/Profile.vue"
 
 export default {
+  components: { LoginForm, Profile },
   name: 'App',
-  components: {
-    HelloWorld
+  data(){
+    return {
+      hide: "hide",
+      appearProfile: "hide", 
+    }
+  },
+  methods:{
+    appear(){
+      if(this.hide == 'hide')
+        this.hide = null;
+      else
+        this.hide = 'hide';
+    },
+    appearPro(){
+      if(this.appearProfile == 'hide')
+        this.appearProfile = null;
+      else
+        this.appearProfile = 'hide';
+    },
+    updateAppear(stt){
+      this.hide = stt;
+    },
+    ...mapActions("auth", [
+      "attemptLogin",
+      "attemptSignup",
+      "attemptExternalLogin"
+    ]),
+  },
+  computed: {
+    ...mapGetters("auth", ["currentUser"])
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style scoped>
+.hide{
+  opacity: 0;
+  z-index: -1;
 }
 </style>
