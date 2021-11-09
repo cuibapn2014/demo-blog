@@ -11,7 +11,7 @@ function setupFaunaDB() {
   let key = checkForFaunaKey();
 
   const client = new faunadb.Client({
-    secret: 'fnAEXgMtecACSRQ7-tqV1jIfJgt3DvS1w2IeEiBh'
+    secret: 'fnAEXkvCLgACSUbCc3G59-TBMFY1BiWsFSi8imSB'
   });
 
   /* Based on your requirements, change the schema here */
