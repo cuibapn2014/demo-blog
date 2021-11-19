@@ -98,7 +98,6 @@
       "duration-200",
       "duration-300",
       "duration-500",
-      "fixed",
       "flex",
       "flex-col",
       "flex-grow",
@@ -257,7 +256,6 @@
       "shadow-lg",
       "shadow-md",
       "sm:-rotate-6",
-      "sm:h-10",
       "sm:h-7",
       "sm:leading-7",
       "sm:max-w-xl",
@@ -311,7 +309,8 @@
       "z-0",
       "z-1",
       "z-10",
-      "z-20"
+      "z-20",
+      "z-50"
     ],
     "ids": [
       "app",
