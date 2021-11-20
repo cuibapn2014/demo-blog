@@ -2,6 +2,7 @@
 title: What is the Webpack ?
 date: 2021-11-20T10:49:09.913Z
 thumbnail: /image/webpack.png
+image: /image/webpack.png
 description: Webpack is a static module bundler for modern JavaScript applications
 ---
 <!--StartFragment-->
