@@ -5,7 +5,7 @@ date: 2021-11-21T08:15:01.985Z
 image: https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80
 description: Hugo + TailwindCSS + VueJS
 ---
-## **BẮT ĐẦU VỚI HUGO**
+## **BẮT ĐẦU VỚI HUGOs**
 
 ### Tìm Hiểu HuGo
 
@@ -47,13 +47,13 @@ Sau khi tìm hiểu chúng tôi bắt đầu phát triển thử ứng dụng đ
 
 ### Đưa VueJs vào HuGo
 
-Chúng tôi đã xây dựng được một ứng dụng VueJs và tạo ra được folder` dist `. Nó chứa các tệp mà VueJs đã xây dựng là cái tệp` js `và `css`.
+Chúng tôi đã xây dựng được một ứng dụng VueJs và tạo ra được folder`dist`. Nó chứa các tệp mà VueJs đã xây dựng là cái tệp`js`và `css`.
 
-Tiếp theo để sử dụng được một ứng dụng VueJs trong hugo chúng tôi đã cài đặt các tệp js và css trong thư mục `dist `của dự án VueJs vào layouts của hugo thông qua Script và link. Để đảm bảo chúng nhận được các file này chúng tôi đã bỏ nó vào trong thư mục static của Hugo.
+Tiếp theo để sử dụng được một ứng dụng VueJs trong hugo chúng tôi đã cài đặt các tệp js và css trong thư mục `dist`của dự án VueJs vào layouts của hugo thông qua Script và link. Để đảm bảo chúng nhận được các file này chúng tôi đã bỏ nó vào trong thư mục static của Hugo.
 
 ### Triển khai với Netlify
 
-Sau khi Blog đã hoàn chỉnh chúng tôi deploy lên một máy chủ netlify đã được setup sẵn bằng một tệp cấu hình` netlify.toml ` ở thư mục gốc.
+Sau khi Blog đã hoàn chỉnh chúng tôi deploy lên một máy chủ netlify đã được setup sẵn bằng một tệp cấu hình`netlify.toml` ở thư mục gốc.
 
 ## TỔNG KẾT
 
