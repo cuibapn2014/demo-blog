@@ -55,6 +55,6 @@ Tiếp theo để sử dụng được một ứng dụng VueJs trong hugo chún
 
 Sau khi Blog đã hoàn chỉnh chúng tôi deploy lên một máy chủ netlify đã được setup sẵn bằng một tệp cấu hình`netlify.toml` ở thư mục gốc.
 
-## TỔNG KẾT
+## **TỔNG KẾT**
 
 Hugo kết hợp với TailwindCSS là một cách đơn giản nhưng hiệu quả để xây dựng một web static ,điểm yếu của nó lại là tính linh động khi không thể có các tương tác với người dùng nhưng VueJs lại có thể. Do đó việc kết hợp chúng với nhau sẽ là một cách tối ưu để tạo ra một trang web rất chuyên nghiệp vừa nhanh vừa thân thiện với người sử dựng.
