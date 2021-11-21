@@ -33,25 +33,25 @@ Nhìn chung Hugo và Tailwind khá dễ dàng tiếp cận và rất hữu ích 
 
 ## **BẮT ĐẦU VỚI VUEJS**
 
-### Tìm hiểu về Vuejs
+### **Tìm hiểu về VueJs**
 
 Vue.js, gọi tắt là Vue, là một framework linh động dùng để xây dựng giao diện người dùng. Khác với các framework nguyên khối, Vue được thiết kế từ đầu theo hướng cho phép và khuyến khích việc phát triển ứng dụng theo các bước. 
 
 Có rất nhiều kiến thức liên quan đến Vuejs do vậy việc nắm bắt hết thông tin về nó trong thời gian ngắn là điều rất khó, chúng tôi có đọc tài liệu cũng như xem các video về khái lược Vuejs để nắm bắt cũng như hình dung một cách khái quát về Vuejs và cách hoạt động của nó. Khi đó chúng tôi còn biết thêm được VueJs khộng đi một mình mà còn theo đó là Vuex và VueRouter. Sau khi nắm bắt cơ bản về nó chúng tôi bắt đầu xây dựng ra một ứng dụng VueJs.
 
-### Xây dựng ứng dụng từ Vue
+### **Xây dựng ứng dụng từ VueJs**
 
 Chúng tôi có tham khảo một repo khá hay về Vuejs đó là https://chiubaca.com/build-a-serverless-crud-app-using-vue-js-netlify-and-faunadb-5dno/
 
 Sau khi tìm hiểu chúng tôi bắt đầu phát triển thử ứng dụng đăng nhập từ VueJs. Những bước ban đầu thật sự không đơn giản vì kiến thức mới là rất nhiều, sau khi đã thành công thì chúng tôi bắt đầu đưa nó vào Hugo.
 
-### Đưa VueJs vào HuGo
+### **Đưa VueJs vào HuGo**
 
 Chúng tôi đã xây dựng được một ứng dụng VueJs và tạo ra được folder`dist`. Nó chứa các tệp mà VueJs đã xây dựng là cái tệp`js`và `css`.
 
 Tiếp theo để sử dụng được một ứng dụng VueJs trong hugo chúng tôi đã cài đặt các tệp js và css trong thư mục `dist`của dự án VueJs vào layouts của hugo thông qua Script và link. Để đảm bảo chúng nhận được các file này chúng tôi đã bỏ nó vào trong thư mục static của Hugo.
 
-### Triển khai với Netlify
+### **Triển khai với Netlify**
 
 Sau khi Blog đã hoàn chỉnh chúng tôi deploy lên một máy chủ netlify đã được setup sẵn bằng một tệp cấu hình`netlify.toml` ở thư mục gốc.
 
