@@ -11,7 +11,7 @@
 {{ end }}
 {{ define "main" }}
 <div class="w-full float-left relative h-96">
-    <img class="w-full h-full object-cover absolute" style="filter:brightness(.6);" src="{{ .Params.image | absURL }}"
+    <img class="w-full h-full object-cover object-center absolute" style="filter:brightness(.6);" src="{{ .Params.image | absURL }}"
         alt="{{.Title}}">
     <div class="absolute bottom-0 left-0 p-4 text-white">
         <h1 class="title text-5xl text-white mb-5">{{.Title}}</h1>
